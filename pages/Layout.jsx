@@ -1,10 +1,10 @@
 import React from "react";
-import { NaveBar } from "../components";
+import Hero from "../components/Hero";
 
 const Layout = () => {
   return (
     <div>
-      <NaveBar />
+      <Hero />
     </div>
   );
 };

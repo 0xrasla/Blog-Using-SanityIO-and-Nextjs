@@ -6,7 +6,12 @@ module.exports = {
     "./lib/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Anton"],
+        body: ["Roboto Slab"],
+      },
+    },
   },
   plugins: [],
 };
