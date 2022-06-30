@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab&display=swap");
 
-body::-webkit-scrollbar {
-  width: 1em;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(45, 209, 15);
-  outline: 1px solid slategrey;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
